@@ -7,6 +7,7 @@ from pickle import dump as bewaar_dieren_op_schijf
 try:
     f = open('dieren.txt', 'rb')
     dieren = laad_dieren_van_schijf(f)
+    f.close()
 except:
     print("We beginnen met een schone lei")
     dieren = {
@@ -18,8 +19,6 @@ except:
         },
         'ja': 'olifant'
     }
-finally:
-    f.close()
 
 # Herhalen zolang de gebruiker dat wil
 def raad_het_dier():
