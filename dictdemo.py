@@ -11,3 +11,6 @@ print(configuratie.get("processor"))
 print(configuratie)
 print(configuratie.keys())
 print(configuratie.items())
+
+import json
+json.dumps(configuratie)
