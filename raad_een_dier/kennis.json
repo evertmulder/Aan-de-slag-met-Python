@@ -1,0 +1,25 @@
+{
+	"vraag": "heeft het 4 poten",
+	"ja": {
+		"nee": "hond",
+		"ja": {
+			"nee": "olifant",
+			"ja": "kat",
+			"vraag": "heeft het een zachte vacht"
+		},
+		"vraag": "is ie groot"
+	},
+	"nee": {
+		"nee": {
+			"nee": {
+				"nee": "mus",
+				"ja": "kanarie",
+				"vraag": "is de kleur geel"
+			},
+			"ja": "duizendpoot",
+			"vraag": "heeft het 1000 poten"
+		},
+		"ja": "worm",
+		"vraag": "leeft het in de grond"
+	}
+}
